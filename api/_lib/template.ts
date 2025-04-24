@@ -207,7 +207,7 @@ export function getHtml(parsedReq: ParsedRequest) {
                 <body>
                     ${renderContent({cardName, images, valueHeader, md, tvl, isChangePositive, isChangeNegative, trend})}
                     <div class="footer">
-                        Defi Llama is committed to providing accurate data without advertisements or sponsored content, as well as transparency. Learn more on :
+                        DefiLlama is committed to providing accurate data without advertisements or sponsored content, as well as transparency. Learn more on :
                         ${emojify(
                             md ? marked(footerURL) : sanitizeHtml(footerURL || "https://defillama.com")
                         )}
